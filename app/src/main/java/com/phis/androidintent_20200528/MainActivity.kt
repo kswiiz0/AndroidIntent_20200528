@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("입력받은 폰번호", phoneNum)
 
 
-            val myUri = Uri.parse("tel:01051604533")
+            val myUri = Uri.parse("tel:${phoneNum}")
             val myIntent = Intent(Intent.ACTION_DIAL, myUri)
             startActivity(myIntent)
 
