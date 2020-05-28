@@ -38,6 +38,20 @@
         android:text="문자(SNS) 보내기 화면 연결 (SEND TO)"
         />
 
+    <Button
+        android:id="@+id/webBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 열기"
+        />
+
+    <Button
+        android:id="@+id/playStoreBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오톡 앱 다운로드"
+        />
+
 
 
 

@@ -49,6 +49,25 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        webBtn.setOnClickListener {
+            val phoneNum = phoneNumEdt.text.toString()
+            val myUri = Uri.parse("https://naver.com")
+            val myIntent = Intent(Intent.ACTION_VIEW, myUri)
+
+            startActivity(myIntent)
+
+        }
+
+        playStoreBtn.setOnClickListener {
+            val phoneNum = phoneNumEdt.text.toString()
+            val myUri = Uri.parse("market://details?id=com.kakao.talk&hl=ko")
+            val myIntent = Intent(Intent.ACTION_VIEW, myUri)
+
+            startActivity(myIntent)
+
+        }
+
+
 
     }
 }
